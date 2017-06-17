@@ -7,7 +7,7 @@
 //
 
 import UIKit
-typealias BlockCellSelection = () -> Void
+typealias BlockCellSelection = (Products) -> Void
 
 class ListTableView: UITableView,UITableViewDataSource,UITableViewDelegate
 {
@@ -56,7 +56,7 @@ class ListTableView: UITableView,UITableViewDataSource,UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if self.cellSelection != nil
         {
-            self.cellSelection!()
+            self.cellSelection!(self.aryProducts[indexPath.row])
             
         }
     }

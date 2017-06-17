@@ -37,11 +37,18 @@ extension TestMVPPresenterImpl
     func viewDidLayoutSubviews() {
         
     }
+    
+}
+extension TestMVPPresenterImpl
+{
     func didTapToCollapseCalendar(startDate: Date, endDate: Date) {
         
     }
+    func didSelectTableView(withModel product: Products) {
+        print("\(product.productName)")
+        
+    }
 }
-
 extension TestMVPPresenterImpl
 {
     func generateDummyData()

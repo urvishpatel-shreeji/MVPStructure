@@ -37,9 +37,9 @@ extension TestMVPPresentationControlImpl
     func displayTableData(withModel product: [Products])
     {
         self.tblTest.aryProducts = product;
-        self.tblTest.cellSelection = {
+        self.tblTest.cellSelection = { (value) in
             print("Cell Selection")
-            
+            self.delegate?.didSelectTableView(withModel: value)
         }
     }
 }

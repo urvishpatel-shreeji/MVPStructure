@@ -17,8 +17,9 @@ class TestMVPPresenterImpl:TestMVPPresenter
             self.presentationControl.displayTableData(withModel: aryProductList)
         }
     }
-    init(presentationControl: TestMVPPresentationControl) {
-        
+    
+    init(presentationControl: TestMVPPresentationControl)
+    {
         self.presentationControl = presentationControl
     }
     
@@ -27,14 +28,16 @@ class TestMVPPresenterImpl:TestMVPPresenter
 
 extension TestMVPPresenterImpl
 {
-    func viewDidLoad() {
+    func viewDidLoad()
+    {
         
         print("Presenter Impl :: ViewDidLoad")
         self.presentationControl.viewDidLoad()
         self.generateDummyData();
         
     }
-    func viewDidLayoutSubviews() {
+    func viewDidLayoutSubviews()
+    {
         
     }
     
@@ -54,7 +57,6 @@ extension TestMVPPresenterImpl
     func generateDummyData()
     {
         self.aryProductList = self.generateDummyArray();
-        
     }
     func generateDummyArray() -> [Products]
     {

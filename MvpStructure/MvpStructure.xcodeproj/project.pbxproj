@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49142D071EF5B4DA00E3C789 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49142D061EF5B4DA00E3C789 /* SignInViewController.swift */; };
+		49142D091EF5B54B00E3C789 /* SignInContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49142D081EF5B54B00E3C789 /* SignInContact.swift */; };
+		49142D0B1EF5B55B00E3C789 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49142D0A1EF5B55B00E3C789 /* SignInPresenter.swift */; };
+		49142D0D1EF5B57200E3C789 /* SignInPresatationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49142D0C1EF5B57200E3C789 /* SignInPresatationControl.swift */; };
 		4983E97D1EF5708600FD7B59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983E97C1EF5708600FD7B59 /* AppDelegate.swift */; };
 		4983E97F1EF5708600FD7B59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983E97E1EF5708600FD7B59 /* ViewController.swift */; };
 		4983E9821EF5708600FD7B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4983E9801EF5708600FD7B59 /* Main.storyboard */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49142D061EF5B4DA00E3C789 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		49142D081EF5B54B00E3C789 /* SignInContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInContact.swift; sourceTree = "<group>"; };
+		49142D0A1EF5B55B00E3C789 /* SignInPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		49142D0C1EF5B57200E3C789 /* SignInPresatationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInPresatationControl.swift; sourceTree = "<group>"; };
 		4983E9791EF5708600FD7B59 /* MvpStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MvpStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4983E97C1EF5708600FD7B59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4983E97E1EF5708600FD7B59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49142D051EF5B38300E3C789 /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49142D061EF5B4DA00E3C789 /* SignInViewController.swift */,
+				49142D081EF5B54B00E3C789 /* SignInContact.swift */,
+				49142D0A1EF5B55B00E3C789 /* SignInPresenter.swift */,
+				49142D0C1EF5B57200E3C789 /* SignInPresatationControl.swift */,
+			);
+			path = SignInViewController;
+			sourceTree = "<group>";
+		};
 		4983E9701EF5708600FD7B59 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +87,7 @@
 		4983E97B1EF5708600FD7B59 /* MvpStructure */ = {
 			isa = PBXGroup;
 			children = (
+				49142D051EF5B38300E3C789 /* SignInViewController */,
 				4983E99C1EF579ED00FD7B59 /* Models */,
 				4983E9971EF5780600FD7B59 /* TableView */,
 				4983E98E1EF570AA00FD7B59 /* TestMVPController */,
@@ -85,9 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				4983E98F1EF570AA00FD7B59 /* TestMVPContract.swift */,
-				4983E9901EF570AA00FD7B59 /* TestMVPPresentationControl.swift */,
-				4983E9911EF570AA00FD7B59 /* TestMVPPresenter.swift */,
 				4983E9921EF570AA00FD7B59 /* TestMVPViewController.swift */,
+				4983E9911EF570AA00FD7B59 /* TestMVPPresenter.swift */,
+				4983E9901EF570AA00FD7B59 /* TestMVPPresentationControl.swift */,
 			);
 			path = TestMVPController;
 			sourceTree = "<group>";
@@ -182,14 +202,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49142D0B1EF5B55B00E3C789 /* SignInPresenter.swift in Sources */,
 				4983E99E1EF579FE00FD7B59 /* Products.swift in Sources */,
+				49142D091EF5B54B00E3C789 /* SignInContact.swift in Sources */,
 				4983E9991EF5782000FD7B59 /* ListTableView.swift in Sources */,
 				4983E9961EF570AA00FD7B59 /* TestMVPViewController.swift in Sources */,
+				49142D0D1EF5B57200E3C789 /* SignInPresatationControl.swift in Sources */,
 				4983E97F1EF5708600FD7B59 /* ViewController.swift in Sources */,
 				4983E97D1EF5708600FD7B59 /* AppDelegate.swift in Sources */,
 				4983E9951EF570AA00FD7B59 /* TestMVPPresenter.swift in Sources */,
 				4983E99B1EF5783B00FD7B59 /* CellUserDetails.swift in Sources */,
 				4983E9941EF570AA00FD7B59 /* TestMVPPresentationControl.swift in Sources */,
+				49142D071EF5B4DA00E3C789 /* SignInViewController.swift in Sources */,
 				4983E9931EF570AA00FD7B59 /* TestMVPContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +376,7 @@
 				4983E98D1EF5708600FD7B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

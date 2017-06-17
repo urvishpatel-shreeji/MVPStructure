@@ -22,7 +22,8 @@ protocol TestMVPPresentationControl:class
     func displayTableData(withModel product:[Products]) -> Void
     
 }
-protocol TestMVPPresentationControlDelegate: class {
+protocol TestMVPPresentationControlDelegate: class
+{
     
     func didTapToCollapseCalendar(startDate: Date, endDate: Date)
     func didSelectTableView(withModel product:Products) -> Void
